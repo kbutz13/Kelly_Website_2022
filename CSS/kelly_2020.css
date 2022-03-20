@@ -1,0 +1,29 @@
+body {
+ font-family: "Century Gothic", "sansserif";
+ margin-left: auto;
+ margin-right: auto;
+ 
+ 
+}
+
+.container {
+display:grid;
+grid-template-columns: 1fr 4fr;
+grid-template-rows: 200px auto;
+}
+
+#side_nav {
+background-color: aqua;
+
+}
+
+#logo {
+    background-color:#947CAC;
+     color:#fff;
+    font-size: 50px;
+    padding-left:25%;
+}
+
+#main_content {
+    background-color: blue;
+}
